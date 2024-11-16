@@ -1,6 +1,6 @@
-name: Bug Report
-description: File a bug report.
-title: "[Bug]: "
+name: Task creation
+description: Fill in details of the task.
+title: "[]: "
 labels: ["bug", "triage"]
 projects: ["octo-org/1", "octo-org/44"]
 assignees:
