@@ -1,10 +1,6 @@
 name: Task Creation
 description: Fill in details of the task.
 title: "[Task]: "
-labels: ["task", "triage"]
-projects: ["", ""]
-assignees:
-  - octocat
 body:
   - type: markdown
     attributes:
@@ -27,6 +23,7 @@ body:
         - Bug/Issue
         - Feature Request
         - Research Task
+        - Documentation
         - Other
     validations:
       required: true
@@ -62,11 +59,4 @@ body:
       label: Relevant Links or Resources
       description: Provide any links or resources that may help in completing the task.
       placeholder: "Include URLs, documentation, or any relevant files."
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Code of Conduct
-      description: By submitting this task, you agree to follow our [Code of Conduct](https://example.com).
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
+
