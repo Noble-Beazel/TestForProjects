@@ -1,4 +1,4 @@
-name: Task Creation
+name: Create task for AI tutor
 description: Fill in details of the task.
 title: "[Task]: "
 body:
